@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace DOMAIN
 {
-    public class Autor
+    public class Autor : BaseAutorReu
     {
         public int AutorId { get; set; }
-        public List<int> AdvogadosId { get; set; }
+      
 
     }
 }

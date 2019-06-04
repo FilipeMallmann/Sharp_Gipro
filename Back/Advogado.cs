@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DOMAIN.Emuns;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,8 +10,7 @@ namespace DOMAIN
     {
         public int AdvogadoId { get; set; }
         public string Nome { get; set; }
-        public int TipoAdvogado { get; set; } //enum estagiario, advogado, dativo, parceiro, parte contraria...
-
+        public TipoAdvogado TipoAdvogado { get; set; } 
         public string OAB { get; set; }
         public string CertificadoDigital { get; set; }
         public string SenhaCertificado { get; set; }
